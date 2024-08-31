@@ -1,2 +1,0 @@
-# Jenny-balasta
-Code

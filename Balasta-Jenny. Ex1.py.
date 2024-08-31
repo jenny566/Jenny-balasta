@@ -1,0 +1,31 @@
+# Jenny-balasta
+
+# a. Create a simple print script
+print("Goodmorning, I'm Jenny Balasta! BSCS 3G")
+
+# b. Add comment "My first simple script"
+# My first simple script
+
+# Python Variables
+# a. Create two variables and assign number and name to it
+number = 25
+name = "Jenny"
+
+# b. Print both values
+print("Number:", number)
+print("Name:", name)
+
+# Python - Variable Names
+# a. Create 4 variable names using the first names of your group members (excluding your name)
+jewel = "Jewel"
+trisha = "Trisha"
+kyla = "Kyla"
+jayson = "Jayson"
+
+# Many Values to Multiple Variables
+# a. Assign values to multiple variables in one line
+x, y, z = 5, 10, 15
+
+# One Value to Multiple Variables
+# a. Assign the same value to multiple variables in one line
+a = b = c = 50
