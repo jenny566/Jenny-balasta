@@ -1,0 +1,39 @@
+# Define a list containing different types of data
+data_list = ["apple", 5, True, "banana", 10, False]
+
+# Define a tuple containing different types of data
+data_tuple = ("orange", 3, False, "grape", 7, True)
+
+# Define a set containing different types of data
+data_set = {"mango", 8, True, "kiwi", 15, False}
+
+# Define a dictionary with different types of data as values
+data_dict = {
+    "fruit": "pineapple",
+    "quantity": 12,
+    "available": True
+}
+
+# Function to check if a given value is in the list
+def is_in_list(value):
+    return value in data_list
+
+# Function to check if a given key is in the dictionary
+def is_key_in_dict(key):
+    return key in data_dict
+
+# Examples of using the functions with various data types
+print(f"Is 'apple' in the list? {is_in_list('apple')}")
+print(f"Is 5 in the list? {is_in_list(5)}")
+print(f"Is False in the list? {is_in_list(False)}")
+
+print(f"Is 'fruit' a key in the dictionary? {is_key_in_dict('fruit')}")
+print(f"Is 'color' a key in the dictionary? {is_key_in_dict('color')}")
+
+# Conditional check
+number = 10
+# Check if number is greater than 5
+condition_result = number > 5
+
+# Print the result of the condition
+print(f"Is the number greater than 5? {condition_result}")
